@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "TRSS-Plugin"
+name = "TRSS-Plugin-Libre"
 version = "1.0.0"
 description = "TRSS Yunzai Plugin"
 authors = ["TimeRainStarSky <Time.Rain.Star.Sky@Gmail.com>"]
