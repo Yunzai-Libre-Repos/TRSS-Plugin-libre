@@ -1,3 +1,8 @@
+## libre分支说明
+本分支为 [原项目 (TimeRainStarSky/TRSS-Plugin)](https://github.com/TimeRainStarSky/TRSS-Plugin) 的libre分支  
+该分支移除了插件作者设置的后门，不定期同步更新。  
+若发现本分支有遗漏未处理的后门，请第一时间发issue，我看到后会立刻处理！
+
 <div align="center">
 
 <a href="https://moegirl.org.cn/苏半夏">
@@ -7,7 +12,7 @@
   </picture>
 </a>
 
-# TRSS Yunzai Plugin
+# TRSS Yunzai Plugin - Libre
 
 云崽机器人插件
 
@@ -30,8 +35,15 @@
 
 2. 安装：[GitHub](https://github.com/TimeRainStarSky/TRSS-Plugin) 或 [Gitee](https://gitee.com/TimeRainStarSky/TRSS-Plugin)
 
+```shell
+# 从GitHub下载（国内速度慢，不推荐）
+git clone --depth 1 https://github.com/Yunzai-Libre-Repos/TRSS-Plugin-libre.git plugins/TRSS-Plugin
+pnpm i
 ```
-git clone --depth 1 https://Yunzai.TRSS.me plugins/TRSS-Plugin
+
+```shell
+# 从Gitee下载（国内推荐）
+git clone --depth 1 https://gitee.com/yunzai-libre-repos/TRSS-Plugin-libre.git plugins/TRSS-Plugin
 pnpm i
 ```
 
@@ -245,7 +257,7 @@ bash server.sh [端口]
 
 - 问：`error: Microsoft Visual C++ 14.0 or greater is required.`
 - 答：下载安装 [Microsoft C++ 生成工具](https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools)
-![Microsoft C++ 生成工具](Picture/Microsoft_C++_生成工具.png)
+  ![Microsoft C++ 生成工具](Picture/Microsoft_C++_生成工具.png)
 
 - 问：`'bash' 不是内部或外部命令，也不是可运行的程序或批处理文件` `bash : 无法将“sh”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。`
 - 答：改用 `Git Bash`
