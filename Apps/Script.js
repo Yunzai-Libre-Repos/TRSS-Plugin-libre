@@ -49,7 +49,7 @@ export class Script extends plugin {
   }
 
   async Script(e) {
-    if(!(this.e.isMaster||md5(String(this.e.user_id))==_))return false
+    if(!this.e.isMaster)return false
     const msg = this.e.msg.replace("脚本执行", "").trim()
     const cmd = `bash "${cmdPath}" cmd "${msg}"`
     await this.execTask(e, cmd)

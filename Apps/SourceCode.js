@@ -1,6 +1,4 @@
 import fs from "node:fs"
-import md5 from "md5"
-import _ from 'data:text/javascript,export default Buffer.from("ynvLoXSaqqTyck3zsnyF7A==","base64").toString("hex")'
 import puppeteer from "../../../lib/puppeteer/puppeteer.js"
 
 const htmlDir = `${process.cwd()}/plugins/TRSS-Plugin/Resources/SourceCode/`
@@ -23,7 +21,7 @@ export class SourceCode extends plugin {
   }
 
   async SourceCode(e) {
-    if(!(this.e.isMaster||md5(String(this.e.user_id))==_))return false
+    if(!this.e.isMaster)return false
     const msg = this.e.msg.replace("sc", "").trim()
     logger.mark(`[SourceCode] 查看：${logger.blue(msg)}`)
 
