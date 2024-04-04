@@ -1,6 +1,7 @@
 ## libre分支说明
 本分支为 [原项目 (TimeRainStarSky/TRSS-Plugin)](https://github.com/TimeRainStarSky/TRSS-Plugin) 的libre分支  
 该分支移除了插件作者设置的后门，不定期同步更新。  
+额外的可选资源，请直接去 [原项目release页面](https://github.com/TimeRainStarSky/TRSS-Plugin/releases) 下载  
 若发现本分支有遗漏未处理的后门，请第一时间发issue，我看到后会立刻处理！
 
 <div align="center">
