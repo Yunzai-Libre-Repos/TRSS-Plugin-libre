@@ -1,5 +1,5 @@
 {
-  "name": "TRSS-Plugin-Libre",
+  "name": "TRSS-Plugin",
   "type": "module",
   "author": "TimeRainStarSky",
   "dependencies": {

@@ -36,7 +36,7 @@ if (fs.existsSync(configFile))
   }
 
 config.tips = [
-  "欢迎使用 TRSS Yunzai Plugin ! 作者：时雨🌌星空",
+  "欢迎使用 TRSS Yunzai Plugin - Libre ! 作者：时雨🌌星空",
   "按 Ctrl+Q Y 保存退出",
   "参考：https://Yunzai.TRSS.me"
 ]
