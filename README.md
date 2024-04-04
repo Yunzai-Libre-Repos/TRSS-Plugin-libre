@@ -33,7 +33,7 @@
 
 1. 准备：[Yunzai-Bot](https://github.com/Le-niao/Yunzai-Bot)
 
-2. 安装：[GitHub](https://github.com/TimeRainStarSky/TRSS-Plugin) 或 [Gitee](https://gitee.com/TimeRainStarSky/TRSS-Plugin)
+2. 安装：[GitHub](https://github.com/Yunzai-Libre-Repos/TRSS-Plugin-libre) 或 [Gitee](https://gitee.com/yunzai-libre-repos/TRSS-Plugin-libre)
 
 ```shell
 # 从GitHub下载（国内速度慢，不推荐）
