@@ -1,42 +1,5 @@
-@font-face {
-  font-family: Inconsolata;
-  src: url("../fonts/Inconsolata.ttf");
-}
+@import url(../common/common.css);
 
-body {
-  transform: scale(1.4);
-  transform-origin: 0 0;
-}
-
-.container {
-  background: url("../../../miao-plugin/resources/admin/imgs/bg.png") #b5b5b5 center top no-repeat;
-  padding: 10px 20px;
-  background-size: cover;
-  font-family: Inconsolata;
-}
-
-.hljs {
-  padding: 10px;
-  font-family: Inconsolata;
-  background: rgba(40, 42, 54, 0.9);
-  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.hljs-ln-code {
-  color: #F8F8E5
-}
-
-.hljs-ln-numbers {
-  color: #ccc;
-}
-
-.hljs-ln-n:before {
-  padding-right: 10px;
-}
 
 .box {
   padding: 30px;
@@ -48,20 +11,14 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.title,
-.copyright {
-  text-align: center;
-  color: #000;
-}
-
-.title {
-  font-size: 40px;
-}
-
-.copyright {
-  font-size: 30px;
-  font-style: italic;
-  font-weight: bold;
+code:not([data-highlighted=yes]) {
+  background: #282C34;
+  color: #F8F8E5;
+  font-size: 85%;
+  border-radius: 6px;
+  padding: .1em .4em;
+  margin: 0;
+  font-family: inherit;
 }
 
 table:not(code table) {
